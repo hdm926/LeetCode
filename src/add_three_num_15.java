@@ -18,7 +18,6 @@ public class add_three_num_15 {
             for(start = curr + 1; start < nums.length; ++start){
                 if(start > curr + 1 &&nums[start] == nums[start - 1]) continue;
 
-
                 while(start < end && nums[end] > -(nums[curr] + nums[start])){
                     --end;
                 }
